@@ -1,6 +1,6 @@
 name: wf-ci-development
 on:
-  push:
+  pull-request:
     branches:
       - develop
 
